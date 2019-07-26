@@ -47,12 +47,12 @@ end
 
 help 
 
-# def list(songs) 
-#   songs.each_with_index { |item, index|
-#     puts "#{index+1}. #{item}" }
-# end 
+def list(songs) 
+  songs.each_with_index { |item, index|
+    puts "#{index+1}. #{item}" }
+end 
 
-# list(songs)
+list(songs)
 
 # def play(songs)
 #   puts "Please enter a song name or number:"
