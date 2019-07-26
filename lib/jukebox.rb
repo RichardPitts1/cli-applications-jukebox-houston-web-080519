@@ -67,11 +67,11 @@ def play(songs)
   end 
 end 
 
-# play(songs)
+play(songs)
 
-# def exit_jukebox
-#   puts "Goodbye"
-# end 
+def exit_jukebox
+  puts "Goodbye"
+end 
 
 # def run(songs)
 #   #help
